@@ -1,10 +1,12 @@
-package com.he.baselib.base;
+package com.he.mytest.base;
 
 import android.app.Application;
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+
+import net.wequick.small.Small;
 
 /**
  * Author:hepeng
@@ -22,6 +24,7 @@ public class MyApplication extends Application {
 	public void onCreate() {
 		super.onCreate();
 		instance = this;
+		Small.preSetUp(this);
 		initRouter(this);
 	}
 

@@ -1,11 +1,8 @@
 package com.he.mytest.test;
 
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.he.baselib.base.BaseActivity;
 import com.he.mytest.R;
+import com.he.mytest.base.BaseActivity;
 
 /**
  * Author:hepeng
@@ -14,9 +11,14 @@ import com.he.mytest.R;
  */
 @Route(path = "/activity/RouterTestActivity")
 public class RouterTestActivity extends BaseActivity {
+
 	@Override
-	protected void onCreate(@Nullable Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_router_test);
+	protected int setActivityLayout() {
+		return R.layout.activity_router_test;
+	}
+
+	@Override
+	protected void firstInitialize() {
+
 	}
 }

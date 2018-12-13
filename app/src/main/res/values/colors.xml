@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="main_color">#2D5CBD</color><!-- 主题颜色 -->
+    <color name="black">#000000</color>
+    <color name="gray">#EDF0F3</color>
+    <color name="green">#7BCA3D</color>
+    <color name="white">#ffffff</color>
+    <color name="blue_light">#D0EFFA</color>
+    <color name="blue">#436EEE</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFC40</color>
+    <color name="transparent">#00000000</color>
+    <color name="green_light">#44CD6B</color>
+    <color name="orange_light">#F19149</color>
+    <color name="red_light">#FF0000</color>
 </resources>
